@@ -1,0 +1,25 @@
+{
+  "name": "first-demo",
+  "version": "1.0.0",
+  "description": "My Moleculer project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "dev-two": "node greeter-two",
+    "start": "moleculer-runner services"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "moleculer-repl": "^0.3.0"
+  },
+  "dependencies": {
+    "nats": "0.7.20",
+    "moleculer": "^0.11.0"
+  },
+  "engines": {
+    "node": ">= 6.x.x"
+  }
+}
